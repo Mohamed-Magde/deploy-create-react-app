@@ -1,8 +1,8 @@
 # example netlify.toml
 [build]
-  command = "yarn build"
-  functions = "functions" # not strictly required but putting this for convenience
-  publish = "build"
+  command = "npm run build"
+  publish="path-to-react-app/build"
+  base = "path-to-react-app"
 
 # Uncomment to use this redirect for Single Page Applications like create-react-app. 
 # Not needed for static site generators.
